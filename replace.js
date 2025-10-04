@@ -20,4 +20,4 @@ const replaceRecommendations = () => {
     });
 };
 
-setInterval(replaceRecommendations, 10); // 10ms ごとに実行
+setInterval(replaceRecommendations, 1000); // 1s ごとに実行
